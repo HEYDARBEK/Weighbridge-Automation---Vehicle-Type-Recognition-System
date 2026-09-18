@@ -9,6 +9,11 @@
 Bu proje, bir kantar üzerine gelen araçların (Tır, Kamyon, Traktör, Kamyonet ve Boş) kamera görüntülerinden otomatik olarak tespit edilmesi için geliştirilmiş bir yapay zeka sistemidir.
 
 Sistemin temel hedefi, kantar tartım sürecini otomatize ederek, araç tipine göre farklı işlemlerin (ücretlendirme, sınıflandırma vb.) otomatik olarak yapılmasını sağlamaktır.
+## ⚠️ Proje Kapsamı ve Sınırlamalar
+
+Bu proje, belirli bir işletmenin mevcut kantar ve kamera sistemine yönelik olarak geliştirilmiştir. Model, bu sistemden elde edilen görüntüler kullanılarak eğitilmiş ve kamera konumu, görüntüleme açısı ve görüntü formatı gibi işletmeye özgü koşullar dikkate alınmıştır.
+
+Bu nedenle model ve görüntü işleme adımları farklı kamera sistemleri veya farklı çalışma ortamlarında doğrudan aynı performansı göstermeyebilir. Farklı sistemlere uyarlanması durumunda veri setinin yeniden hazırlanması, modelin yeniden eğitilmesi veya görüntü işleme adımlarının değiştirilmesi gerekebilir.
 
 ## ✨ Temel Özellikler
 
