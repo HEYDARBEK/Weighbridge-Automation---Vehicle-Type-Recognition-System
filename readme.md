@@ -9,12 +9,12 @@
 
 This project is an AI-powered system developed to automatically detect vehicles arriving at a weighbridge using camera images.
 
-The system is designed to identify the following vehicle types:
+The system identifies five classes:
 
-- Trucks / Semi-trailer Trucks
-- Trucks
-- Tractors
-- Light Trucks / Pickup Trucks
+- Tractor
+- Semi-trailer Truck
+- Light Truck / Pickup Truck
+- Truck
 - Empty
 
 The main goal of the system is to automate parts of the weighing process and enable automatic operations such as vehicle classification and type-based processing.
